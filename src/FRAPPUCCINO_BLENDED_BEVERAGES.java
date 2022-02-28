@@ -1,0 +1,11 @@
+public enum FRAPPUCCINO_BLENDED_BEVERAGES {
+
+}
+
+enum COFFEE_FRAPPUCCINO {
+
+}
+
+enum CREME_FRAPPUCCINO {
+
+}
