@@ -1,4 +1,4 @@
-public enum general {
+public enum HOT_COFFEES {
 
 
 }
