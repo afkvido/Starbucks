@@ -1,0 +1,27 @@
+public enum COLD_DRINKS {
+
+}
+
+enum STARBUCKS_REFRESHERS {
+
+}
+
+enum COLD_JUICE {
+
+}
+
+enum MILK {
+
+}
+
+enum SPARKLING_WATER {
+
+}
+
+enum WATER {
+
+    DASANI_BOTTLED_WATER,
+    ETHOS_BOTTLED_WATER,
+    HAWAII_VOLCANIC_WATER,
+    WATER,
+}
