@@ -1,5 +1,3 @@
-package resources;
-
 import org.jetbrains.annotations.NotNull;
 import resources.t;
 
@@ -10,6 +8,7 @@ public class Coffee {
     public final String customer;
     private Double subTotal;
     public Double total;
+
 
     public Coffee (Object Type, String Customer) {
         this.general = Type;
