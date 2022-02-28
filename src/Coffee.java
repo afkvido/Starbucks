@@ -33,5 +33,16 @@ public class Coffee {
 
     }
 
+    // ----------------------------------
+
+    public Double getFinalCost_Double () {
+        cost();
+        return total;
+    }
+
+    public String getFinalCost_String () {
+        cost();
+        return "$" + total.toString();
+    }
 
 }
