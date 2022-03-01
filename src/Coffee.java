@@ -38,7 +38,7 @@ public class Coffee {
 
     public String getFinalCost_String () {
         cost();
-        return "Cost: $" + total.toString();
+        return s.white + "Cost: " + s.blue + "$" + s.cyan + total.toString();
     }
 
     // ------
