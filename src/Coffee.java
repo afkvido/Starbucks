@@ -18,16 +18,10 @@ public class Coffee {
         this.size = Size;
     }
 
-    private Double cost () {
+    private void cost () {
         total = subTotal + ((subTotal * t.taxPercent) / 100);
-        return total;
     }
 
-
-    @Override public @NotNull String toString () {
-
-        return "e";
-    }
 
     public void Make () {
 
@@ -40,9 +34,19 @@ public class Coffee {
         return total;
     }
 
+    // ------
+
     public String getFinalCost_String () {
         cost();
-        return "$" + total.toString();
+        return "Cost: $" + total.toString();
     }
+
+    // ------
+
+    @Override public @NotNull String toString () {
+
+        return "e";
+    }
+
 
 }
